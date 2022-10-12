@@ -1,0 +1,38 @@
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Hotel Keoma.exe.config
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Hotel Keoma.exe
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Hotel Keoma.pdb
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.AssemblyReference.cache
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.SuggestedBindingRedirects.cache
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.Hotel_Keoma.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.Properties.Resources.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.GenerateResource.cache
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.CoreCompileInputs.cache
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.exe
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.pdb
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.Login.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.Hotel_Loader.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Guna.UI2.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.CopyComplete
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.g.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\BouncyCastle.Crypto.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Google.Protobuf.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\K4os.Compression.LZ4.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\K4os.Hash.xxHash.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\MySql.Data.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Buffers.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Memory.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Numerics.Vectors.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\ZstdNet.dll
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\BouncyCastle.Crypto.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Google.Protobuf.pdb
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Google.Protobuf.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\K4os.Compression.LZ4.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\K4os.Hash.xxHash.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\MySql.Data.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Buffers.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Memory.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Numerics.Vectors.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
