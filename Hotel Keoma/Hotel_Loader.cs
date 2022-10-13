@@ -36,7 +36,7 @@ namespace Hotel_Keoma
                 }
                 catch (Exception)
                 {
-                    MessageBox.Show("Erro. Verifique sua conexão à internet.");
+                    MessageBox.Show("Verifique sua conexão à internet.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     this.Close();
                 }
             }

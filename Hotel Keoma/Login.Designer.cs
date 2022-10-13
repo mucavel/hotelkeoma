@@ -37,6 +37,7 @@
             this.SubmitBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.LogoLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // UserTextBox
@@ -89,7 +90,7 @@
             // 
             this.Hotel_Keoma.AutoSize = true;
             this.Hotel_Keoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Hotel_Keoma.Location = new System.Drawing.Point(41, 150);
+            this.Hotel_Keoma.Location = new System.Drawing.Point(40, 210);
             this.Hotel_Keoma.Name = "Hotel_Keoma";
             this.Hotel_Keoma.Size = new System.Drawing.Size(228, 39);
             this.Hotel_Keoma.TabIndex = 1;
@@ -136,18 +137,27 @@
             // label1
             // 
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.Location = new System.Drawing.Point(-8, 277);
+            this.label1.Location = new System.Drawing.Point(-8, 290);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(556, 79);
+            this.label1.Size = new System.Drawing.Size(556, 66);
             this.label1.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-            this.label2.Location = new System.Drawing.Point(-8, -4);
+            this.label2.Location = new System.Drawing.Point(-8, -9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(556, 67);
+            this.label2.Size = new System.Drawing.Size(556, 61);
             this.label2.TabIndex = 3;
+            // 
+            // LogoLabel
+            // 
+            this.LogoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoLabel.Image = ((System.Drawing.Image)(resources.GetObject("LogoLabel.Image")));
+            this.LogoLabel.Location = new System.Drawing.Point(31, 70);
+            this.LogoLabel.Name = "LogoLabel";
+            this.LogoLabel.Size = new System.Drawing.Size(228, 128);
+            this.LogoLabel.TabIndex = 1;
             // 
             // Login
             // 
@@ -160,6 +170,7 @@
             this.Controls.Add(this.SubmitBtn);
             this.Controls.Add(this.PasswordLabel);
             this.Controls.Add(this.UserLabel);
+            this.Controls.Add(this.LogoLabel);
             this.Controls.Add(this.Hotel_Keoma);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.UserTextBox);
@@ -183,5 +194,6 @@
         private Guna.UI2.WinForms.Guna2Button SubmitBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LogoLabel;
     }
 }

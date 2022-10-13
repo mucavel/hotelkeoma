@@ -3,7 +3,6 @@ E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Hotel Keoma.exe
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\Hotel Keoma.pdb
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.AssemblyReference.cache
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.SuggestedBindingRedirects.cache
-E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.Hotel_Keoma.resources
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.Properties.Resources.resources
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.GenerateResource.cache
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel Keoma.csproj.CoreCompileInputs.cache
@@ -36,3 +35,6 @@ E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Buffers.xml
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Memory.xml
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Numerics.Vectors.xml
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.DashBoard.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.AddReservationUserControl.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.BookingUserControl.resources

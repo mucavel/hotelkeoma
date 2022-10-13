@@ -12,7 +12,9 @@ namespace Hotel_Keoma
 
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
-
+            DashBoard dashBoard = new DashBoard();
+            this.Close();
+            dashBoard.Show();
         }
     }
 }

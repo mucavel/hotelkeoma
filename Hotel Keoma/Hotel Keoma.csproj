@@ -87,17 +87,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddReservationUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddReservationUserControl.Designer.cs">
+      <DependentUpon>AddReservationUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookingUserControl.Designer.cs">
+      <DependentUpon>BookingUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hotel_Loader.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hotel_Loader.Designer.cs">
       <DependentUpon>Hotel_Loader.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Hotel_Keoma.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Hotel_Keoma.Designer.cs">
-      <DependentUpon>Hotel_Keoma.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -107,14 +119,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddReservationUserControl.resx">
+      <DependentUpon>AddReservationUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingUserControl.resx">
+      <DependentUpon>BookingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hotel_Loader.resx">
       <DependentUpon>Hotel_Loader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Hotel_Keoma.resx">
-      <DependentUpon>Hotel_Keoma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -140,12 +158,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\hotel_ico.ico" />
     <Resource Include="Assets\loader.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\login.png" />
     <Resource Include="Assets\login_reverse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\hotel_and_resort.ico" />
+    <Resource Include="Assets\hotel_and_resort.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
