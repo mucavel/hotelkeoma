@@ -36,8 +36,8 @@
             this.HotelManagementSystemLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.BookingUserControl = new Hotel_Keoma.BookingUserControl();
             this.AddReservationUserControl = new Hotel_Keoma.AddReservationUserControl();
+            this.BookingUserControl = new Hotel_Keoma.BookingUserControl();
             this.SuspendLayout();
             // 
             // BtnsLabel
@@ -121,14 +121,6 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Desenvolvedor : Salvador Carlos Mucavele @ 2022";
             // 
-            // BookingUserControl
-            // 
-            this.BookingUserControl.BackColor = System.Drawing.Color.White;
-            this.BookingUserControl.Location = new System.Drawing.Point(252, 74);
-            this.BookingUserControl.Name = "BookingUserControl";
-            this.BookingUserControl.Size = new System.Drawing.Size(925, 600);
-            this.BookingUserControl.TabIndex = 9;
-            // 
             // AddReservationUserControl
             // 
             this.AddReservationUserControl.BackColor = System.Drawing.Color.White;
@@ -136,6 +128,14 @@
             this.AddReservationUserControl.Name = "AddReservationUserControl";
             this.AddReservationUserControl.Size = new System.Drawing.Size(925, 600);
             this.AddReservationUserControl.TabIndex = 8;
+            // 
+            // BookingUserControl
+            // 
+            this.BookingUserControl.BackColor = System.Drawing.Color.White;
+            this.BookingUserControl.Location = new System.Drawing.Point(250, 74);
+            this.BookingUserControl.Name = "BookingUserControl";
+            this.BookingUserControl.Size = new System.Drawing.Size(925, 600);
+            this.BookingUserControl.TabIndex = 9;
             // 
             // DashBoard
             // 

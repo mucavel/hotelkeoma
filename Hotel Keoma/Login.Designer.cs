@@ -42,6 +42,7 @@
             // 
             // UserTextBox
             // 
+            this.UserTextBox.Animated = true;
             this.UserTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.UserTextBox.DefaultText = "";
             this.UserTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -65,6 +66,7 @@
             // 
             // PasswordTextBox
             // 
+            this.PasswordTextBox.Animated = true;
             this.PasswordTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.PasswordTextBox.DefaultText = "";
             this.PasswordTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -85,6 +87,7 @@
             this.PasswordTextBox.Size = new System.Drawing.Size(200, 36);
             this.PasswordTextBox.TabIndex = 0;
             this.PasswordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PasswordTextBox.WordWrap = false;
             // 
             // Hotel_Keoma
             // 
@@ -176,6 +179,7 @@
             this.Controls.Add(this.UserTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

@@ -41,7 +41,5 @@ namespace Hotel_Keoma
                 }
             }
         }
-
-
     }
 }

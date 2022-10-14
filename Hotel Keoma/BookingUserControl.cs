@@ -10,6 +10,7 @@ namespace Hotel_Keoma
         public BookingUserControl()
         {
             InitializeComponent();
+            FillTable();
         }
 
         readonly MySqlConnection conn = new MySqlConnection("SERVER=127.0.0.1;DATABASE=hotelkeoma;UID=root;PASSWORD=");
@@ -20,13 +21,21 @@ namespace Hotel_Keoma
 
         public void FillTable()
         {
-            conn.Open();
-            ReservesDataGridView.DataSource = null;
-            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM `hotelbooking`", conn);
-            DataTable datatable = new DataTable();
-            adapter.Fill(datatable);
-            ReservesDataGridView.DataSource = datatable;
-            conn.Close();
+            try
+            {
+                conn.Open();
+                ReservesDataGridView.DataSource = null;
+                MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM `hotelbooking`", conn);
+                DataTable datatable = new DataTable();
+                adapter.Fill(datatable);
+                ReservesDataGridView.DataSource = datatable;
+                conn.Close();
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Verifique sua conexão à internet.", "Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void RefreshBtn_Click(object sender, EventArgs e)
