@@ -27,5 +27,27 @@ namespace Hotel_Keoma
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void LogOutLabel_Click(object sender, System.EventArgs e)
+        {
+            LogOut();
+        }
+
+        private void LogoutIconLabel_Click(object sender, System.EventArgs e)
+        {
+            LogOut();
+        }
+        private void LogOut()
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void UsersBtn_Click(object sender, System.EventArgs e)
+        {
+            ConfirmID confirmID = new ConfirmID();
+            confirmID.Show();
+        }
     }
 }

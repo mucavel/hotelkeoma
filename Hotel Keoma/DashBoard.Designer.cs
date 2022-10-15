@@ -36,8 +36,11 @@
             this.HotelManagementSystemLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.AddReservationUserControl = new Hotel_Keoma.AddReservationUserControl();
+            this.UsersBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.LogoutIconLabel = new System.Windows.Forms.Label();
+            this.LogOutLabel = new System.Windows.Forms.Label();
             this.BookingUserControl = new Hotel_Keoma.BookingUserControl();
+            this.AddReservationUserControl = new Hotel_Keoma.AddReservationUserControl();
             this.SuspendLayout();
             // 
             // BtnsLabel
@@ -121,6 +124,55 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Desenvolvedor : Salvador Carlos Mucavele @ 2022";
             // 
+            // UsersBtn
+            // 
+            this.UsersBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.UsersBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.UsersBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.UsersBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.UsersBtn.FillColor = System.Drawing.Color.White;
+            this.UsersBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsersBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(225)))));
+            this.UsersBtn.Location = new System.Drawing.Point(-3, 328);
+            this.UsersBtn.Name = "UsersBtn";
+            this.UsersBtn.Size = new System.Drawing.Size(249, 65);
+            this.UsersBtn.TabIndex = 10;
+            this.UsersBtn.Text = "USUÁRIOS";
+            this.UsersBtn.Click += new System.EventHandler(this.UsersBtn_Click);
+            // 
+            // LogoutIconLabel
+            // 
+            this.LogoutIconLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.LogoutIconLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LogoutIconLabel.Image = ((System.Drawing.Image)(resources.GetObject("LogoutIconLabel.Image")));
+            this.LogoutIconLabel.Location = new System.Drawing.Point(73, 656);
+            this.LogoutIconLabel.Name = "LogoutIconLabel";
+            this.LogoutIconLabel.Size = new System.Drawing.Size(40, 46);
+            this.LogoutIconLabel.TabIndex = 11;
+            this.LogoutIconLabel.Click += new System.EventHandler(this.LogoutIconLabel_Click);
+            // 
+            // LogOutLabel
+            // 
+            this.LogOutLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.LogOutLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LogOutLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOutLabel.ForeColor = System.Drawing.Color.White;
+            this.LogOutLabel.Location = new System.Drawing.Point(107, 656);
+            this.LogOutLabel.Name = "LogOutLabel";
+            this.LogOutLabel.Size = new System.Drawing.Size(59, 46);
+            this.LogOutLabel.TabIndex = 11;
+            this.LogOutLabel.Text = "SAIR";
+            this.LogOutLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LogOutLabel.Click += new System.EventHandler(this.LogOutLabel_Click);
+            // 
+            // BookingUserControl
+            // 
+            this.BookingUserControl.BackColor = System.Drawing.Color.White;
+            this.BookingUserControl.Location = new System.Drawing.Point(252, 76);
+            this.BookingUserControl.Name = "BookingUserControl";
+            this.BookingUserControl.Size = new System.Drawing.Size(925, 600);
+            this.BookingUserControl.TabIndex = 9;
+            // 
             // AddReservationUserControl
             // 
             this.AddReservationUserControl.BackColor = System.Drawing.Color.White;
@@ -129,20 +181,15 @@
             this.AddReservationUserControl.Size = new System.Drawing.Size(925, 600);
             this.AddReservationUserControl.TabIndex = 8;
             // 
-            // BookingUserControl
-            // 
-            this.BookingUserControl.BackColor = System.Drawing.Color.White;
-            this.BookingUserControl.Location = new System.Drawing.Point(250, 74);
-            this.BookingUserControl.Name = "BookingUserControl";
-            this.BookingUserControl.Size = new System.Drawing.Size(925, 600);
-            this.BookingUserControl.TabIndex = 9;
-            // 
             // DashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1179, 711);
+            this.Controls.Add(this.LogOutLabel);
+            this.Controls.Add(this.LogoutIconLabel);
+            this.Controls.Add(this.UsersBtn);
             this.Controls.Add(this.BookingUserControl);
             this.Controls.Add(this.AddReservationUserControl);
             this.Controls.Add(this.label3);
@@ -175,5 +222,8 @@
         private System.Windows.Forms.Label label3;
         private AddReservationUserControl AddReservationUserControl;
         private BookingUserControl BookingUserControl;
+        private Guna.UI2.WinForms.Guna2Button UsersBtn;
+        private System.Windows.Forms.Label LogoutIconLabel;
+        private System.Windows.Forms.Label LogOutLabel;
     }
 }

@@ -38,3 +38,5 @@ E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\bin\Debug\System.Runtime.Compiler
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.DashBoard.resources
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.AddReservationUserControl.resources
 E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.BookingUserControl.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.AddAdmin.resources
+E:\C0D1NG\Ficheiros\C#\Hotel Keoma\Hotel Keoma\obj\Debug\Hotel_Keoma.ConfirmID.resources
