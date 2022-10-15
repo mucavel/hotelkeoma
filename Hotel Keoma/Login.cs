@@ -29,9 +29,9 @@ namespace Hotel_Keoma
                     cmd.Parameters.AddWithValue("@adminName", username);
                     cmd.Parameters.AddWithValue("@adminPass", password);
                     MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                    conn.Close();
                     DataTable datatable = new DataTable();
                     adapter.Fill(datatable);
-                    conn.Close();
 
                     if (datatable.Rows.Count > 0)
                     {
