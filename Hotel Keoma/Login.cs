@@ -25,7 +25,7 @@ namespace Hotel_Keoma
                 try
                 {
                     conn.Open();
-                    MySqlCommand cmd = new MySqlCommand("SELECT `adminName`, `adminPass` FROM `users` WHERE `adminName`=@adminName AND `adminPass`=md5(@adminPass)", conn);
+                    MySqlCommand cmd = new MySqlCommand("SELECT `Usuario`, `adminPass` FROM `users` WHERE `Usuario`=@adminName AND `adminPass`=md5(@adminPass)", conn);
                     cmd.Parameters.AddWithValue("@adminName", username);
                     cmd.Parameters.AddWithValue("@adminPass", password);
                     MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);

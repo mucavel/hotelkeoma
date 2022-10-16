@@ -143,7 +143,7 @@
             this.Booking.AutoSize = true;
             this.Booking.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Booking.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.Booking.Location = new System.Drawing.Point(373, 24);
+            this.Booking.Location = new System.Drawing.Point(382, 21);
             this.Booking.Name = "Booking";
             this.Booking.Size = new System.Drawing.Size(152, 29);
             this.Booking.TabIndex = 0;

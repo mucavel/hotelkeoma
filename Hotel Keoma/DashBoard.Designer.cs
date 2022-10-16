@@ -39,8 +39,9 @@
             this.UsersBtn = new Guna.UI2.WinForms.Guna2Button();
             this.LogoutIconLabel = new System.Windows.Forms.Label();
             this.LogOutLabel = new System.Windows.Forms.Label();
-            this.BookingUserControl = new Hotel_Keoma.BookingUserControl();
+            this.UsersUserControl = new Hotel_Keoma.UsersUserControl();
             this.AddReservationUserControl = new Hotel_Keoma.AddReservationUserControl();
+            this.BookingUserControl = new Hotel_Keoma.BookingUserControl();
             this.SuspendLayout();
             // 
             // BtnsLabel
@@ -165,21 +166,29 @@
             this.LogOutLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LogOutLabel.Click += new System.EventHandler(this.LogOutLabel_Click);
             // 
-            // BookingUserControl
+            // UsersUserControl
             // 
-            this.BookingUserControl.BackColor = System.Drawing.Color.White;
-            this.BookingUserControl.Location = new System.Drawing.Point(252, 76);
-            this.BookingUserControl.Name = "BookingUserControl";
-            this.BookingUserControl.Size = new System.Drawing.Size(925, 600);
-            this.BookingUserControl.TabIndex = 9;
+            this.UsersUserControl.BackColor = System.Drawing.Color.White;
+            this.UsersUserControl.Location = new System.Drawing.Point(248, 73);
+            this.UsersUserControl.Name = "UsersUserControl";
+            this.UsersUserControl.Size = new System.Drawing.Size(925, 600);
+            this.UsersUserControl.TabIndex = 12;
             // 
             // AddReservationUserControl
             // 
             this.AddReservationUserControl.BackColor = System.Drawing.Color.White;
-            this.AddReservationUserControl.Location = new System.Drawing.Point(252, 76);
+            this.AddReservationUserControl.Location = new System.Drawing.Point(245, 75);
             this.AddReservationUserControl.Name = "AddReservationUserControl";
             this.AddReservationUserControl.Size = new System.Drawing.Size(925, 600);
-            this.AddReservationUserControl.TabIndex = 8;
+            this.AddReservationUserControl.TabIndex = 13;
+            // 
+            // BookingUserControl
+            // 
+            this.BookingUserControl.BackColor = System.Drawing.Color.White;
+            this.BookingUserControl.Location = new System.Drawing.Point(247, 75);
+            this.BookingUserControl.Name = "BookingUserControl";
+            this.BookingUserControl.Size = new System.Drawing.Size(925, 600);
+            this.BookingUserControl.TabIndex = 14;
             // 
             // DashBoard
             // 
@@ -187,11 +196,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1179, 711);
+            this.Controls.Add(this.BookingUserControl);
+            this.Controls.Add(this.AddReservationUserControl);
+            this.Controls.Add(this.UsersUserControl);
             this.Controls.Add(this.LogOutLabel);
             this.Controls.Add(this.LogoutIconLabel);
             this.Controls.Add(this.UsersBtn);
-            this.Controls.Add(this.BookingUserControl);
-            this.Controls.Add(this.AddReservationUserControl);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.HotelManagementSystemLabel);
@@ -220,10 +230,11 @@
         private System.Windows.Forms.Label HotelManagementSystemLabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private AddReservationUserControl AddReservationUserControl;
-        private BookingUserControl BookingUserControl;
         private Guna.UI2.WinForms.Guna2Button UsersBtn;
         private System.Windows.Forms.Label LogoutIconLabel;
         private System.Windows.Forms.Label LogOutLabel;
+        private UsersUserControl UsersUserControl;
+        private AddReservationUserControl AddReservationUserControl;
+        private BookingUserControl BookingUserControl;
     }
 }

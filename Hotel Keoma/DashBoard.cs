@@ -12,6 +12,7 @@ namespace Hotel_Keoma
         private void BookingsBtn_Click(object sender, System.EventArgs e)
         {
             AddReservationUserControl.Hide();
+            UsersUserControl.Hide();
             BookingUserControl.Show();
             BookingUserControl.BringToFront();
         }
@@ -19,6 +20,7 @@ namespace Hotel_Keoma
         private void AddReservationBtn_Click(object sender, System.EventArgs e)
         {
             BookingUserControl.Hide();
+            UsersUserControl.Hide();
             AddReservationUserControl.Show();
             AddReservationUserControl.BringToFront();
         }
@@ -46,8 +48,10 @@ namespace Hotel_Keoma
 
         private void UsersBtn_Click(object sender, System.EventArgs e)
         {
-            ConfirmID confirmID = new ConfirmID();
-            confirmID.Show();
+            AddReservationUserControl.Hide();
+            BookingUserControl.Hide();
+            UsersUserControl.Show();
+            UsersUserControl.BringToFront(); ;
         }
     }
 }

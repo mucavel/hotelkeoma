@@ -87,12 +87,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddAdmin.Designer.cs">
-      <DependentUpon>AddAdmin.cs</DependentUpon>
-    </Compile>
     <Compile Include="AddReservationUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -104,12 +98,6 @@
     </Compile>
     <Compile Include="BookingUserControl.Designer.cs">
       <DependentUpon>BookingUserControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConfirmID.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConfirmID.Designer.cs">
-      <DependentUpon>ConfirmID.cs</DependentUpon>
     </Compile>
     <Compile Include="DashBoard.cs">
       <SubType>Form</SubType>
@@ -131,17 +119,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddAdmin.resx">
-      <DependentUpon>AddAdmin.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="UsersUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersUserControl.Designer.cs">
+      <DependentUpon>UsersUserControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddReservationUserControl.resx">
       <DependentUpon>AddReservationUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BookingUserControl.resx">
       <DependentUpon>BookingUserControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConfirmID.resx">
-      <DependentUpon>ConfirmID.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoard.resx">
       <DependentUpon>DashBoard.cs</DependentUpon>
@@ -161,6 +149,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UsersUserControl.resx">
+      <DependentUpon>UsersUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
