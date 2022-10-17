@@ -214,7 +214,7 @@
             this.MaximizeBox = false;
             this.Name = "DashBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hotel  Keoma";
+            this.Text = "Hotel  Keoma - (Beta)";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CloseForm);
             this.ResumeLayout(false);
             this.PerformLayout();

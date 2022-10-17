@@ -11,6 +11,7 @@ namespace Hotel_Keoma
             InitializeComponent();
         }
         readonly MySqlConnection conn = new MySqlConnection("SERVER=127.0.0.1;DATABASE=hotelkeoma;UID=root;PASSWORD=");
+
         private void Hotel_Loader_Load(object sender, EventArgs e)
         {
             LoaderTimer.Start();

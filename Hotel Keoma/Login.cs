@@ -12,6 +12,7 @@ namespace Hotel_Keoma
             InitializeComponent();
         }
         readonly MySqlConnection conn = new MySqlConnection("SERVER=127.0.0.1;DATABASE=hotelkeoma;UID=root;PASSWORD=");
+
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
             string username = UserTextBox.Text.Trim();
